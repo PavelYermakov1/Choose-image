@@ -6,21 +6,13 @@ body {
 .picture {
   padding: 0;
   margin: 20px;
-  width: 1200px;
-  height: 540px;
+  width: 296px;
+  height: 400px;
   display: block;
-  background-image: url("picture-1.jpg");
+  background-image: url("picture-1-320.jpg");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-}
-
-@media (width: 1024px) {
-  .picture {
-    width: 940px;
-    height: 540px;
-    background-image: url("picture-1-1200.jpg");
-  }
 }
 
 @media (width: 768px) {
@@ -31,10 +23,26 @@ body {
   }
 }
 
-@media (width: 320px) {
+@media (width: 1024px) {
+  .picture {
+    width: 940px;
+    height: 540px;
+    background-image: url("picture-1-1200.jpg");
+  }
+}
+
+@media (width: 1200px) {
+  .picture {
+    width: 1200px;
+    height: 540px;
+    background-image: url("picture-1.jpg");
+  }
+}
+
+/* @media (width: 320px) {
   .picture {
     width: 296px;
     height: 400px;
     background-image: url("picture-1-320.jpg");
   }
-}
+} */
