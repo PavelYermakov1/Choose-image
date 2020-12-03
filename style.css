@@ -19,6 +19,7 @@ body {
   .picture {
     width: 940px;
     height: 540px;
+    background-image: url("picture-1-1200.jpg");
   }
 }
 
@@ -26,6 +27,7 @@ body {
   .picture {
     width: 716px;
     height: 440px;
+    background-image: url("picture-1-768.jpg");
   }
 }
 
@@ -33,5 +35,6 @@ body {
   .picture {
     width: 296px;
     height: 400px;
+    background-image: url("picture-1-320.jpg");
   }
 }
